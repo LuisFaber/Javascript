@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+
+<body>
+    <script>
+        var data = new Date()
+      /* document.write(data.getDate() + '/' + (data.getMonth() +1) + '/' + data.getUTCFullYear())
+    */ 
+    // Adicionar / Remover dias
+    document.write(data.toString())
+    data.setDate(data.getDate() +365)
+    document.write('<hr/>')
+    document.write(data.toString())
+    document.write('<br /><br/> <hr/>')  
+    // Adicionar /remover mês  
+    document.write(data.toString())
+    data.setMonth(data.getMonth() -2)
+    document.write('<hr/>')
+    document.write(data.toString())
+    document.write('<br /><br/> <hr/>')    
+    // Adicionar /remover Anos  
+    document.write(data.toString())
+    data.setFullYear(data.getFullYear() -2)
+    document.write('<hr/>')
+    document.write(data.toString())
+    document.write('<br /><br/> <hr/>')    
+    
+   </script>
+</body>
+</html>

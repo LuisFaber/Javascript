@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS</title>
+</head>
+<body>
+    <script>
+    //3 escopos: GLOBAL, FUNÇÃO E O BLOCO
+    var serie = 'friends'
+    //escopo de bloco
+    if (true){
+        document.write(serie)
+    }
+    //escopo de função
+    function x(){
+        document.write(serie)
+    }
+/* 
+Escopos globais funcionam em função e bloco - e escopos de bloco
+funcionam em global mas escopos de funçoes só funcionam em funções.
+*/
+    </script>
+</body>
+</html>
